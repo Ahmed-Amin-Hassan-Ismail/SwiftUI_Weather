@@ -4,7 +4,7 @@
 
  ## MVVM (Design Architecture)
 
- ## respect software principles ( SOLID , KISS , DRY, etc....)
+ ## Respect Software Principles ( SOLID , KISS , DRY, etc....)
 
  ### App Features ....
 
