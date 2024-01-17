@@ -15,6 +15,7 @@
 		AC9107352B571F1300A29E7B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9107342B571F1300A29E7B /* HomeView.swift */; };
 		AC9107372B571F6A00A29E7B /* Image+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9107362B571F6A00A29E7B /* Image+EXT.swift */; };
 		AC9107392B57226000A29E7B /* HomeView+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9107382B57226000A29E7B /* HomeView+EXT.swift */; };
+		AC91073D2B58448000A29E7B /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC91073C2B58448000A29E7B /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		AC9107342B571F1300A29E7B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AC9107362B571F6A00A29E7B /* Image+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+EXT.swift"; sourceTree = "<group>"; };
 		AC9107382B57226000A29E7B /* HomeView+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView+EXT.swift"; sourceTree = "<group>"; };
+		AC91073C2B58448000A29E7B /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		AC9107292B571D2B00A29E7B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				AC91073A2B58446D00A29E7B /* TabBar */,
 				AC91072F2B571E9100A29E7B /* Home */,
 			);
 			path = Modules;
@@ -141,6 +144,22 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC91073A2B58446D00A29E7B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AC91073B2B58447500A29E7B /* View */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		AC91073B2B58447500A29E7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC91073C2B58448000A29E7B /* TabBarView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +234,7 @@
 			files = (
 				AC9107372B571F6A00A29E7B /* Image+EXT.swift in Sources */,
 				AC91072E2B571D9D00A29E7B /* Color+EXT.swift in Sources */,
+				AC91073D2B58448000A29E7B /* TabBarView.swift in Sources */,
 				AC9107352B571F1300A29E7B /* HomeView.swift in Sources */,
 				AC9107392B57226000A29E7B /* HomeView+EXT.swift in Sources */,
 				AC91071D2B571ADF00A29E7B /* ContentView.swift in Sources */,

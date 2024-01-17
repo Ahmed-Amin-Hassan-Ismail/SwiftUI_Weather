@@ -12,19 +12,23 @@ struct HomeView: View {
     // MARK: - Body
     
     var body: some View {
-        ZStack {
-            backgroundColor
+        NavigationView {
             
-            backgroundImage
-            
-            headerView
+            ZStack {
+                backgroundColor
+                
+                backgroundImage
+                
+                headerView
+                
+                TabBarView {
+                    
+                 }
+            }
+            .navigationBarBackButtonHidden()
         }
     }
 }
-
-
-// MARK: - Extension
-
 
 #Preview {
     HomeView()
