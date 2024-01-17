@@ -19,8 +19,17 @@ struct TabBarView: View {
         
         ZStack {
             
+            // Arc Shape
+            Arc()
+                .fill(Color.tabBarBackground)
+                .frame(height: 88)
+                .overlay {
+                    Arc()
+                        .stroke(Color.tabBarBorder, lineWidth: 0.5)
+                    
+                }
+            
             HStack {
-                
                 Image.map
                     .frame(width: 44, height: 44)
                                    
