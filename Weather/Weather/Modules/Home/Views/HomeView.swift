@@ -19,20 +19,21 @@ struct HomeView: View {
         NavigationView {
             
             ZStack {
+                                                
                 backgroundColor
                 
                 backgroundImage
                 
                 headerView
                 
-                BottomSheetView(position: $viewModel.position) {
+                BottomSheetView(position: $viewModel.position ) {
                     // MARK: - TODO
                     
                 } content: {
                     
                    ForecastView()
                 }
-                
+                                
                 TabBarView {
                     viewModel.position = .top
                  }
@@ -44,4 +45,5 @@ struct HomeView: View {
 
 #Preview {
     HomeView()
+        .preferredColorScheme(.dark)
 }

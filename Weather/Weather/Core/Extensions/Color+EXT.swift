@@ -13,8 +13,8 @@ extension Color {
                                                                        Color("Background 2")]),
                                            startPoint: .topLeading, endPoint: .bottomTrailing)
     
-    static let bottomSheetBackground = LinearGradient(gradient: Gradient(colors: [Color("Background 1").opacity(0.5),
-                                                                                  Color("Background 2").opacity(0.55)]),
+    static let bottomSheetBackground = LinearGradient(gradient: Gradient(colors: [Color("Background 1").opacity(0.26),
+                                                                                  Color("Background 2").opacity(0.26)]),
                                                       startPoint: .topLeading, endPoint: .bottomTrailing)
     
     static let navBarBackground = LinearGradient(gradient: Gradient(colors: [Color("Background 1").opacity(0.1),

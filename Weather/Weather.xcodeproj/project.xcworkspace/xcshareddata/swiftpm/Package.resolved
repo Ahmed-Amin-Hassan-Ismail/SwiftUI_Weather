@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Wouter125/BottomSheet",
       "state" : {
-        "revision" : "02f09c1f67b1a12dd26af055ab1135b524f25d75",
-        "version" : "1.0.2"
+        "revision" : "44ab4103c63b07777bef40b91d5a21c3a12dbda4",
+        "version" : "1.4.5"
       }
     }
   ],

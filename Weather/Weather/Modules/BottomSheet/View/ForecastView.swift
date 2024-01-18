@@ -14,6 +14,7 @@ struct ForecastView: View {
         ScrollView {
             
         }
+        .backgroundBlur(radius: 25, opaque: true)
         .background(Color.bottomSheetBackground)
         .clipShape(RoundedRectangle(cornerRadius: 44))
         .overlay {
