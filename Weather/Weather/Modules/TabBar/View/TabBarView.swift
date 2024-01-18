@@ -26,12 +26,15 @@ struct TabBarView: View {
                 .overlay {
                     Arc()
                         .stroke(Color.tabBarBorder, lineWidth: 0.5)
-                    
                 }
             
             HStack {
-                Image.map
-                    .frame(width: 44, height: 44)
+                Button(action: {
+                    action()
+                }, label: {
+                    Image.map
+                        .frame(width: 44, height: 44)
+                })
                                    
                 Spacer()
                 

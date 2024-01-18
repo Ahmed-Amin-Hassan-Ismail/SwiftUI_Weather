@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import BottomSheet
 
 struct HomeView: View {
     
-    // MARK: - Body
+    // MARK: - Properties
+    
+    @StateObject private var viewModel = HomeViewModel()
     
     var body: some View {
+        
         NavigationView {
             
             ZStack {
@@ -21,8 +25,16 @@ struct HomeView: View {
                 
                 headerView
                 
-                TabBarView {
+                BottomSheetView(position: $viewModel.position) {
+                    // MARK: - TODO
                     
+                } content: {
+                    
+                   ForecastView()
+                }
+                
+                TabBarView {
+                    viewModel.position = .top
                  }
             }
             .navigationBarBackButtonHidden()

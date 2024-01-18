@@ -41,7 +41,7 @@ extension HomeView {
             Spacer()
         }
         .foregroundColor(.white)
-        .padding(.top, 57)
+        .padding(.top, 51)
     }
 }
 
